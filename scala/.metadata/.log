@@ -4075,3 +4075,6 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/connect/src/ma
 
 !ENTRY org.scala-ide.sdt.core 1 0 2017-02-06 10:32:07.773
 !MESSAGE Timeout while resolving hyperlink in C:\Users\evalue\git\My_Turing\scala\connect\src\main\scala\mongodb\hive.scala at: offset: 218, length: 0
+
+!ENTRY org.scala-ide.sdt.core 1 0 2017-02-06 11:08:31.450
+!MESSAGE Timeout while resolving hyperlink in C:\Users\evalue\git\My_Turing\scala\connect\src\main\scala\mongodb\hive.scala at: offset: 1013, length: 0
