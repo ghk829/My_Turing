@@ -1,0 +1,24 @@
+package mongodb
+
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkContext._
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SQLContext
+import com.mongodb.spark._
+// It's aim to connect to mysql and make a fatjar with maven
+object goodjob {
+  def main(args : Array[String]){
+    val conf = new SparkConf().setAppName("simeple").setMaster("local[*]")
+    val sc = new SparkContext(conf)
+    val sqlContext = new org.apache.spark.sql.SQLContext(sc)
+    val url = "jdbc:mysql://192.168.111.128:3306/sys"
+    val user = "root"
+    val password = "root123"
+    val dbtable = "host_summary"
+    val data = sqlContext.read.format("jdbc").options(Map("url" -> url,
+    "user" -> user,                                                               
+    "password" -> password,                                                       
+    "dbtable" -> dbtable)).load()
+    data.foreach(println)
+  }
+}

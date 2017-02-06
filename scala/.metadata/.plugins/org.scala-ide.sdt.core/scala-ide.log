@@ -1,0 +1,128 @@
+2017-02-06 09:10:57,045 ERROR [ModalContext] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob).
+2017-02-06 09:10:57,046 ERROR [ModalContext] - System.err - log4j:WARN Please initialize the log4j system properly.
+2017-02-06 09:10:57,165  WARN [ModalContext] - ScalaProject - Project goodjob has platform default sourceLevel.
+2017-02-06 09:10:57,166  WARN [ModalContext] - ScalaProject - Project goodjob runs on platform default installation.
+2017-02-06 09:10:57,936  WARN [ModalContext] - ScalaProject - Project goodjob has platform default sourceLevel.
+2017-02-06 09:10:57,937  WARN [ModalContext] - ScalaProject - Project goodjob runs on platform default installation.
+2017-02-06 09:10:59,394  WARN [Worker-6] - ScalaProject - Project goodjob has platform default sourceLevel.
+2017-02-06 09:11:00,982  WARN [Worker-6] - ScalaProject - Project goodjob runs on platform default installation.
+2017-02-06 09:11:01,796  WARN [Worker-6] - ScalaProject - Project goodjob has platform default sourceLevel.
+2017-02-06 09:11:01,796  WARN [Worker-6] - ScalaProject - Project goodjob runs on platform default installation.
+2017-02-06 09:11:10,073  WARN [main] - ScalaProject - Project goodjob has platform default sourceLevel.
+2017-02-06 09:11:10,073  WARN [main] - ScalaProject - Project goodjob runs on platform default installation.
+2017-02-06 09:11:12,328  WARN [Worker-9] - ScalaProject - Project goodjob has platform default sourceLevel.
+2017-02-06 09:11:12,328  WARN [Worker-9] - ScalaProject - Project goodjob runs on platform default installation.
+2017-02-06 09:11:12,839  WARN [Worker-9] - ScalaProject - Project goodjob has platform default sourceLevel.
+2017-02-06 09:11:12,839  WARN [Worker-9] - ScalaProject - Project goodjob runs on platform default installation.
+2017-02-06 09:11:16,137  WARN [main] - ScalaProject - Project goodjob has platform default sourceLevel.
+2017-02-06 09:11:16,138  WARN [main] - ScalaProject - Project goodjob runs on platform default installation.
+2017-02-06 09:11:46,717 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-02-06 09:11:46,717 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-02-06 09:11:54,932  WARN [Worker-9] - ScalaProject - Project goodjob has platform default sourceLevel.
+2017-02-06 09:11:54,932  WARN [Worker-9] - ScalaProject - Project goodjob runs on platform default installation.
+2017-02-06 09:11:57,084  WARN [Worker-8] - ScalaProject - Project goodjob has platform default sourceLevel.
+2017-02-06 09:11:57,085  WARN [Worker-8] - ScalaProject - Project goodjob runs on platform default installation.
+2017-02-06 09:11:57,172  WARN [Worker-8] - ScalaProject - Project goodjob has platform default sourceLevel.
+2017-02-06 09:11:57,172  WARN [Worker-8] - ScalaProject - Project goodjob runs on platform default installation.
+2017-02-06 09:13:21,942  WARN [Worker-0] - ScalaProject - Project goodjob has platform default sourceLevel.
+2017-02-06 09:13:21,942  WARN [Worker-0] - ScalaProject - Project goodjob runs on platform default installation.
+2017-02-06 09:13:30,115  WARN [Worker-0] - ScalaProject - Project goodjob has platform default sourceLevel.
+2017-02-06 09:13:30,115  WARN [Worker-0] - ScalaProject - Project goodjob runs on platform default installation.
+2017-02-06 09:16:11,510  WARN [main] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:16:11,510  WARN [main] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:16:11,619  WARN [main] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:16:11,619  WARN [main] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:16:11,837  WARN [Worker-6] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:16:11,837  WARN [Worker-6] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:16:12,008  WARN [Worker-6] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:16:12,008  WARN [Worker-6] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:16:26,505  WARN [Worker-10] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:16:26,505  WARN [Worker-10] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:16:26,543  WARN [Worker-10] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:16:26,543  WARN [Worker-10] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:16:34,107  WARN [main] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:16:34,108  WARN [main] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:16:43,558  WARN [Worker-4] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:16:43,559  WARN [Worker-4] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:16:43,941  WARN [Java indexing] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:16:43,942  WARN [Java indexing] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:16:44,072  WARN [Worker-4] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:16:44,072  WARN [Worker-4] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:16:44,264  WARN [Worker-2] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:16:44,264  WARN [Worker-2] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:16:45,390  WARN [Worker-2] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:16:45,390  WARN [Worker-2] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:18:41,358  WARN [Worker-9] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:18:41,358  WARN [Worker-9] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:18:42,105  WARN [Worker-1] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:18:42,105  WARN [Worker-1] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:18:42,109  WARN [Worker-9] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:18:42,109  WARN [Worker-9] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:18:43,084  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:18:43,084  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:19:12,747  WARN [Worker-4] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:19:12,747  WARN [Worker-4] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:19:15,293  WARN [Worker-4] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:19:15,293  WARN [Worker-4] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:20:14,041  WARN [Worker-4] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:20:14,041  WARN [Worker-4] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:20:15,203  WARN [Worker-4] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:20:15,203  WARN [Worker-4] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:20:22,118  WARN [Worker-2] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:20:22,119  WARN [Worker-2] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:20:24,016  WARN [Worker-2] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:20:24,016  WARN [Worker-2] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:24:40,599  WARN [Worker-11] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:24:40,599  WARN [Worker-11] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:24:42,377  WARN [Worker-11] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:24:42,377  WARN [Worker-11] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:25:12,929  WARN [ModalContext] - ScalaProject - Project goodjob has platform default sourceLevel.
+2017-02-06 09:25:12,929  WARN [ModalContext] - ScalaProject - Project goodjob runs on platform default installation.
+2017-02-06 09:25:13,090  WARN [ModalContext] - ScalaProject - Project goodjob has platform default sourceLevel.
+2017-02-06 09:25:13,091  WARN [ModalContext] - ScalaProject - Project goodjob runs on platform default installation.
+2017-02-06 09:26:00,734  WARN [main] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:26:00,734  WARN [main] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:26:01,281  WARN [Worker-14] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:26:01,282  WARN [Worker-14] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:26:02,335  WARN [Worker-14] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:26:02,336  WARN [Worker-14] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:26:13,722  WARN [Worker-14] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:26:13,722  WARN [Worker-14] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:26:15,182  WARN [Worker-14] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:26:15,182  WARN [Worker-14] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:27:46,545  WARN [Worker-14] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:27:46,546  WARN [Worker-14] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:27:48,900  WARN [Worker-14] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:27:48,900  WARN [Worker-14] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:28:07,727  WARN [ModalContext] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:28:07,727  WARN [ModalContext] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:28:08,010  WARN [Worker-1] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:28:08,010  WARN [Worker-1] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:28:08,607  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:28:08,607  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:28:10,082  WARN [Worker-1] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:28:10,082  WARN [Worker-1] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:28:12,105  WARN [ModalContext] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:28:12,105  WARN [ModalContext] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:28:12,373  WARN [Worker-13] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:28:12,374  WARN [Worker-13] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:28:13,126  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:28:13,127  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:29:17,265  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2017-02-06 09:31:01,665  WARN [Worker-14] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:31:01,666  WARN [Worker-14] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:31:55,210  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2017-02-06 09:32:07,950  WARN [Worker-13] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:32:07,951  WARN [Worker-13] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:36:11,815  WARN [main] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:36:11,818  WARN [main] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:36:11,824  WARN [main] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:36:11,825  WARN [main] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:36:29,909 ERROR [Worker-2] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.jgit.util.FS).
+2017-02-06 09:36:29,912 ERROR [Worker-2] - System.err - log4j:WARN Please initialize the log4j system properly.
+2017-02-06 09:36:35,593 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-02-06 09:36:35,594 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-02-06 09:37:00,491  WARN [Worker-5] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:37:00,491  WARN [Worker-5] - ScalaProject - Project connect runs on platform default installation.
+2017-02-06 09:37:00,530  WARN [Worker-5] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-06 09:37:00,531  WARN [Worker-5] - ScalaProject - Project connect runs on platform default installation.
