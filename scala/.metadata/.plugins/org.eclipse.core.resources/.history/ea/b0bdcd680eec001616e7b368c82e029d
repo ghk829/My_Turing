@@ -6,8 +6,7 @@ import org.apache.spark.SparkConf
 import org.apache.spark.sql.SQLContext
 import com.mongodb.spark._
 import org.apache.spark.sql.Row
-import java.lang.Integer
-import java.lang.String
+
 object hive {
   def main(args:Array[String]){
     val conf = new SparkConf().setAppName("simeple").setMaster("local[*]")
@@ -23,6 +22,8 @@ object hive {
     "dbtable" -> dbtable)).load()
     data.registerTempTable("names")
     import sqlContext.implicits._
-    println(data.sqlContext.sql("select * from names").count())
+    data.sqlContext.sql("select * from names")
+    .map(x=>(x.getAs[String](0),x.getAs[String](1)))
+    .collect().foreach(println)
   }
 }

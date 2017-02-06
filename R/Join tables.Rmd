@@ -1,0 +1,52 @@
+---
+title: "Data Handling"
+output: html_notebook
+---
+
+
+```{r}
+df1 = data.frame(CustomerId = c(1:6), Product = c(rep("Toaster", 3), rep("Radio", 3)))
+df2 = data.frame(CustomerId = c(2, 4, 6), State = c(rep("Alabama", 2), rep("Ohio", 1)))
+cbind(df1,df2)
+```
+```{r}
+library(data.table)
+library(dplyr)
+```
+
+
+# Inner join
+```{r}
+innerdf=merge(df1,df2,by='CustomerId')
+innerdf
+```
+# Left join
+```{r}
+leftdf = merge(df1,df2,all.x=T,by='CustomerId')
+leftdf
+```
+# Right join
+```{r}
+rightdf =merge(df1,df2,all.y=T,by='CustomerId')
+rightdf
+```
+# Outer join
+```{r}
+outerdf = merge(df1,df2,all=T,by='CustomerId')
+outerdf
+```
+# Filter
+```{r}
+data=setDT(wine)
+data[quality %in% c(4,5),] %>% select(`fixed acidity`,quality) %>%  arrange(quality) %>% head(3)
+```
+# Making variables
+```{r}
+df[,ta:=`fixed acidity`*2]
+df[,list(ta,`fixed acidity`,quality)] %>% head(3)
+```
+# Group by
+```{r}
+df[ta>20,.(avg=mean(ta),sd=sd(ta)),by=quality] %>% head(3)
+```
+
