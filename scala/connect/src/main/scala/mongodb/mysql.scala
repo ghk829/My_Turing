@@ -4,7 +4,6 @@ import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SQLContext
-import com.mongodb.spark._
 // It's aim to connect to mysql and make a fatjar with maven
 object goodjob {
   def main(args : Array[String]){
