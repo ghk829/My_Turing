@@ -57,12 +57,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="plotly.plotly"/>
 			<item value="mongodb.connect"/>
 		</list>
 		<list key="groupId">
+			<item value="plotly"/>
 			<item value="mongodb"/>
 		</list>
 		<list key="artifactId">
+			<item value="plotly"/>
 			<item value="connect"/>
 		</list>
 		<list key="projectNameTemplate">

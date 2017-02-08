@@ -1,0 +1,14 @@
+package test
+import co.theasi.plotly._
+object test {
+  def main(args:Array[String]){
+    implicit val server = new writer.Server {
+    val credentials = writer.Credentials("ghk829", "Jxps5G77xHyudZiBGITS")
+    val url = "https://api.plot.ly/v2/"
+}
+    val xs = Vector(1, 2, 3)
+    val ys = Vector(4.5, 8.5, 21.0)
+    val p = Plot().withScatter(xs, ys)
+    draw(p, "custom-credentials")
+  }
+}
