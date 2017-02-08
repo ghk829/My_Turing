@@ -1,0 +1,3 @@
+PYSPARK_DRIVER_PYTHON = ipython2
+PYSPARK_DRIVER_PYTHON_OPTS = notebook
+pyspark --num-executors 5 --driver-memory 2g --executor-memory 2g
