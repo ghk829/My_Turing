@@ -57,14 +57,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="movie.recommend"/>
 			<item value="plotly.plotly"/>
 			<item value="mongodb.connect"/>
 		</list>
 		<list key="groupId">
+			<item value="movie"/>
 			<item value="plotly"/>
 			<item value="mongodb"/>
 		</list>
 		<list key="artifactId">
+			<item value="recommend"/>
 			<item value="plotly"/>
 			<item value="connect"/>
 		</list>

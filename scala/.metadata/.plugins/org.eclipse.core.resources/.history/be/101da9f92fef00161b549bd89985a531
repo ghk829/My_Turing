@@ -1,0 +1,46 @@
+package recommend
+import java.io.File
+
+import scala.io.Source
+
+import org.apache.log4j.Logger
+import org.apache.log4j.Level
+
+import org.apache.spark.SparkConf
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkContext._
+import org.apache.spark.rdd._
+import org.apache.spark.mllib.recommendation.{ALS, Rating, MatrixFactorizationModel}
+import java.sql.Connection
+import java.sql.DriverManager
+class A extends Connection{
+}
+
+object sqlite {
+  def main(args:Array[String]){
+    Logger.getLogger("org.apache.spark").setLevel(Level.WARN)
+    Logger.getLogger("org.eclipse.jetty.server").setLevel(Level.OFF)
+    Class.forName("com.sqlite.jdbc.Driver")
+  val conf = new SparkConf()
+      .setAppName("MovieLensALS").setMaster("local[*]")
+      .set("spark.executor.memory", "2g")
+    val sc = new SparkContext(conf)
+      val movieLensHomeDir = "C:/Users/evalue/git/movie_lens/data"
+      val movies = sc.textFile(new File(movieLensHomeDir, "u.item").toString).map { line =>
+      val fields = line.split("\t")
+      // format: (movieId, movieName)
+      (fields(0).toInt, fields(1))
+    }.collect().toMap
+    val sameModel = MatrixFactorizationModel.load(sc, "C:/results")
+    val candidates = sc.textFile(new File(movieLensHomeDir,"myratings2.txt").toString) map { line =>
+      line.toInt
+    }
+     val recommendations = sameModel
+      .predict(candidates.map((196, _))).sortBy(- _.rating).take(50)
+       val url = "jdbc:sqlite://C:/Users/evalue/git/movie_lens/db.sqlite3/"
+       val conn = new A()
+       DriverManager.getConnection(url);
+
+  
+  }
+  }
