@@ -10081,3 +10081,95 @@ java.util.zip.ZipException: invalid CEN header (bad signature)
 2017-02-10 13:16:34,321  WARN [Worker-116] - ScalaProject - Project recommend runs on platform default installation.
 2017-02-10 13:16:37,586  WARN [Worker-114] - ScalaProject - Project recommend has platform default sourceLevel.
 2017-02-10 13:16:37,586  WARN [Worker-114] - ScalaProject - Project recommend runs on platform default installation.
+2017-02-10 15:57:56,818  WARN [main] - ScalaProject - Project recommend has platform default sourceLevel.
+2017-02-10 15:57:56,821  WARN [main] - ScalaProject - Project recommend runs on platform default installation.
+2017-02-10 15:57:56,827  WARN [main] - ScalaProject - Project recommend has platform default sourceLevel.
+2017-02-10 15:57:56,827  WARN [main] - ScalaProject - Project recommend runs on platform default installation.
+2017-02-10 15:58:04,284  WARN [main] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-10 15:58:04,285  WARN [main] - ScalaProject - Project connect runs on platform default installation.
+2017-02-10 15:58:04,411  WARN [main] - ScalaProject - Project plotly has platform default sourceLevel.
+2017-02-10 15:58:04,411  WARN [main] - ScalaProject - Project plotly runs on platform default installation.
+2017-02-10 15:58:09,074 ERROR [Worker-7] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.jgit.util.FS).
+2017-02-10 15:58:09,103 ERROR [Worker-7] - System.err - log4j:WARN Please initialize the log4j system properly.
+2017-02-10 16:26:40,797  WARN [main] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-10 16:26:40,797  WARN [main] - ScalaProject - Project connect runs on platform default installation.
+2017-02-10 17:18:00,410  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2017-02-10 17:25:11,875  WARN [main] - ScalaProject - Project plotly has platform default sourceLevel.
+2017-02-10 17:25:11,876  WARN [main] - ScalaProject - Project plotly runs on platform default installation.
+2017-02-10 17:25:15,428 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-02-10 17:25:15,428 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-02-10 17:25:15,428 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-02-10 17:38:47,982  WARN [main] - ScalaProject - Project TestStream has platform default sourceLevel.
+2017-02-10 17:38:47,982  WARN [main] - ScalaProject - Project TestStream runs on platform default installation.
+2017-02-10 17:38:48,290  WARN [main] - ScalaProject - Project TestStream has platform default sourceLevel.
+2017-02-10 17:38:48,290  WARN [main] - ScalaProject - Project TestStream runs on platform default installation.
+2017-02-10 17:38:48,492  WARN [Worker-42] - ScalaProject - Project TestStream has platform default sourceLevel.
+2017-02-10 17:38:48,495  WARN [Worker-42] - ScalaProject - Project TestStream runs on platform default installation.
+2017-02-10 17:39:26,806  WARN [Worker-42] - ScalaProject - Project TestStream has platform default sourceLevel.
+2017-02-10 17:39:26,806  WARN [Worker-42] - ScalaProject - Project TestStream runs on platform default installation.
+2017-02-10 17:39:26,970  WARN [Worker-42] - ScalaProject - Project TestStream has platform default sourceLevel.
+2017-02-10 17:39:26,970  WARN [Worker-42] - ScalaProject - Project TestStream runs on platform default installation.
+2017-02-10 17:39:36,175  WARN [Worker-47] - ScalaProject - Project TestStream has platform default sourceLevel.
+2017-02-10 17:39:36,175  WARN [Worker-47] - ScalaProject - Project TestStream runs on platform default installation.
+2017-02-10 17:39:43,707  WARN [main] - ScalaProject - Project TestStream has platform default sourceLevel.
+2017-02-10 17:39:43,708  WARN [main] - ScalaProject - Project TestStream runs on platform default installation.
+2017-02-10 17:39:50,262  WARN [ModalContext] - ScalaProject - Project TestStream has platform default sourceLevel.
+2017-02-10 17:39:50,262  WARN [ModalContext] - ScalaProject - Project TestStream runs on platform default installation.
+2017-02-13 10:23:19,221 ERROR [Worker-0] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.jgit.util.FS).
+2017-02-13 10:23:19,292 ERROR [Worker-0] - System.err - log4j:WARN Please initialize the log4j system properly.
+2017-02-13 10:23:34,302  WARN [Worker-4] - ScalaProject - Project recommend has platform default sourceLevel.
+2017-02-13 10:23:34,305  WARN [Worker-4] - ScalaProject - Project recommend runs on platform default installation.
+2017-02-13 10:23:34,612  WARN [Worker-4] - ScalaProject - Project connect has platform default sourceLevel.
+2017-02-13 10:23:34,612  WARN [Worker-4] - ScalaProject - Project connect runs on platform default installation.
+2017-02-13 10:23:34,647  WARN [Worker-4] - ScalaProject - Project plotly has platform default sourceLevel.
+2017-02-13 10:23:34,647  WARN [Worker-4] - ScalaProject - Project plotly runs on platform default installation.
+2017-02-13 10:31:37,115  WARN [ModalContext] - ScalaProject - Project Functional Programming has platform default sourceLevel.
+2017-02-13 10:31:37,115  WARN [ModalContext] - ScalaProject - Project Functional Programming runs on platform default installation.
+2017-02-13 10:31:42,793  WARN [Worker-8] - ScalaProject - Project Functional Programming has platform default sourceLevel.
+2017-02-13 10:31:42,795  WARN [Worker-8] - ScalaProject - Project Functional Programming runs on platform default installation.
+2017-02-13 10:31:43,998  WARN [Worker-8] - ScalaProject - Project plotly has platform default sourceLevel.
+2017-02-13 10:31:43,999  WARN [Worker-8] - ScalaProject - Project plotly runs on platform default installation.
+2017-02-13 10:31:44,018  WARN [Worker-8] - ScalaProject - Project plotly has platform default sourceLevel.
+2017-02-13 10:31:44,019  WARN [Worker-8] - ScalaProject - Project plotly runs on platform default installation.
+2017-02-13 10:32:06,266  WARN [Worker-8] - ScalaProject - Project recommend has platform default sourceLevel.
+2017-02-13 10:32:06,267  WARN [Worker-8] - ScalaProject - Project recommend runs on platform default installation.
+2017-02-13 10:32:06,291  WARN [Worker-8] - ScalaProject - Project recommend has platform default sourceLevel.
+2017-02-13 10:32:06,291  WARN [Worker-8] - ScalaProject - Project recommend runs on platform default installation.
+2017-02-13 10:36:26,312  WARN [Worker-10] - ScalaProject - Project Functional Programming has platform default sourceLevel.
+2017-02-13 10:36:26,312  WARN [Worker-10] - ScalaProject - Project Functional Programming runs on platform default installation.
+2017-02-13 10:36:37,237  WARN [Worker-15] - ScalaProject - Project Functional Programming has platform default sourceLevel.
+2017-02-13 10:36:37,237  WARN [Worker-15] - ScalaProject - Project Functional Programming runs on platform default installation.
+2017-02-13 10:36:38,203  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project Functional Programming has platform default sourceLevel.
+2017-02-13 10:36:38,204  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project Functional Programming runs on platform default installation.
+2017-02-13 10:39:56,065  WARN [main] - ScalaProject - Project recommend has platform default sourceLevel.
+2017-02-13 10:39:56,065  WARN [main] - ScalaProject - Project recommend runs on platform default installation.
+2017-02-13 10:40:12,797 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-02-13 10:40:12,833 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-02-13 10:40:12,833 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-02-13 10:40:16,500  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2017-02-13 10:40:52,493  WARN [Worker-19] - ScalaProject - Project Functional Programming has platform default sourceLevel.
+2017-02-13 10:40:52,493  WARN [Worker-19] - ScalaProject - Project Functional Programming runs on platform default installation.
+2017-02-13 10:46:10,234  WARN [ModalContext] - ScalaProject - Project Functional Programming has platform default sourceLevel.
+2017-02-13 10:46:10,235  WARN [ModalContext] - ScalaProject - Project Functional Programming runs on platform default installation.
+2017-02-13 10:46:31,907  WARN [Worker-22] - ScalaProject - Project Functional Programming has platform default sourceLevel.
+2017-02-13 10:46:31,907  WARN [Worker-22] - ScalaProject - Project Functional Programming runs on platform default installation.
+2017-02-13 10:46:44,093  WARN [Worker-28] - ScalaProject - Project Functional Programming has platform default sourceLevel.
+2017-02-13 10:46:44,093  WARN [Worker-28] - ScalaProject - Project Functional Programming runs on platform default installation.
+2017-02-13 10:46:53,874  WARN [Worker-23] - ScalaProject - Project Functional Programming has platform default sourceLevel.
+2017-02-13 10:46:53,874  WARN [Worker-23] - ScalaProject - Project Functional Programming runs on platform default installation.
+2017-02-13 10:46:54,375  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project Functional Programming has platform default sourceLevel.
+2017-02-13 10:46:54,376  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project Functional Programming runs on platform default installation.
+2017-02-13 11:03:46,070  WARN [Worker-30] - ScalaProject - Project Functional Programming has platform default sourceLevel.
+2017-02-13 11:03:46,070  WARN [Worker-30] - ScalaProject - Project Functional Programming runs on platform default installation.
+2017-02-13 11:03:57,367  WARN [Worker-51] - ScalaProject - Project Functional Programming has platform default sourceLevel.
+2017-02-13 11:03:57,368  WARN [Worker-51] - ScalaProject - Project Functional Programming runs on platform default installation.
+2017-02-13 11:04:06,452  WARN [Worker-30] - ScalaProject - Project Functional Programming has platform default sourceLevel.
+2017-02-13 11:04:06,452  WARN [Worker-30] - ScalaProject - Project Functional Programming runs on platform default installation.
+2017-02-13 11:04:15,367  WARN [Worker-51] - ScalaProject - Project Functional Programming has platform default sourceLevel.
+2017-02-13 11:04:15,368  WARN [Worker-51] - ScalaProject - Project Functional Programming runs on platform default installation.
+2017-02-13 11:04:21,469  WARN [Worker-35] - ScalaProject - Project Functional Programming has platform default sourceLevel.
+2017-02-13 11:04:21,469  WARN [Worker-35] - ScalaProject - Project Functional Programming runs on platform default installation.
+2017-02-13 11:04:58,981  WARN [Worker-57] - ScalaProject - Project Functional Programming has platform default sourceLevel.
+2017-02-13 11:04:58,982  WARN [Worker-57] - ScalaProject - Project Functional Programming runs on platform default installation.
+2017-02-13 11:04:59,472  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project Functional Programming has platform default sourceLevel.
+2017-02-13 11:04:59,472  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project Functional Programming runs on platform default installation.

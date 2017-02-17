@@ -1,0 +1,24 @@
+import java.util.Random;
+import java.util.stream.IntStream;
+
+public class StreamTest {
+	public static void main(String[] args) {
+		// IntStream.range(1, 10).parallel().forEach(i -> {
+		// try {
+		// Thread.sleep(1000); // NETWORK, IO, CPU PROCESS
+		// } catch (InterruptedException e) {
+		// }
+		// System.out.println(i);
+		// });
+
+		doit();
+	}
+
+	public static void doit() {
+		Random r = new Random();
+		double result = IntStream.range(1, 10000).map(x -> {
+			return (int)IntStream.range(1, 100000).map(y -> r.nextInt(10000)).average().getAsDouble();
+		}).average().getAsDouble();
+		System.out.println(result);
+	}
+}

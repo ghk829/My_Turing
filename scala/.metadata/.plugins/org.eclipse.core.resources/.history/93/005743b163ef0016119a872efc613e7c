@@ -1,0 +1,18 @@
+import java.util.Random;
+import java.util.stream.IntStream;
+
+public class StreamTest {
+	public static void main(String[] args) {
+		IntStream.range(1, 10).parallel().forEach(i -> {
+			try {
+				Thread.sleep(1000); // NETWORK, IO, CPU PROCESS
+			} catch (InterruptedException e) {
+			}
+			System.out.println(i);
+		});
+	}
+	
+	public static void doit(){
+		Random r = new Random();
+	}
+}

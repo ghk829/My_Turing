@@ -1,0 +1,9 @@
+#encoding=UTF-8
+#version=1
+org.scala-ide.zinc.compiler.bridge.source,1.0.0.X6v-201612131029-02830a6,file:/C:/Users/evalue/Downloads/eclipse/plugins/org.scala-ide.zinc.compiler.bridge.source_1.0.0.X6v-201612131029-02830a6.jar,-1,false
+org.scala-lang.modules.scala-parser-combinators.source,1.0.3,file:/C:/Users/evalue/Downloads/eclipse/plugins/org.scala-lang.modules.scala-parser-combinators.source_1.0.3.jar,-1,false
+org.scala-lang.modules.scala-swing.source,1.0.1,file:/C:/Users/evalue/Downloads/eclipse/plugins/org.scala-lang.modules.scala-swing.source_1.0.1.jar,-1,false
+org.scala-lang.modules.scala-xml.source,1.0.3,file:/C:/Users/evalue/Downloads/eclipse/plugins/org.scala-lang.modules.scala-xml.source_1.0.3.jar,-1,false
+org.scala-lang.scala-compiler.source,2.11.8.v20160304-115712-1706a37eb8,file:/C:/Users/evalue/Downloads/eclipse/plugins/org.scala-lang.scala-compiler.source_2.11.8.v20160304-115712-1706a37eb8.jar,-1,false
+org.scala-lang.scala-library.source,2.11.8.v20160304-115712-1706a37eb8,file:/C:/Users/evalue/Downloads/eclipse/plugins/org.scala-lang.scala-library.source_2.11.8.v20160304-115712-1706a37eb8.jar,-1,false
+org.scala-lang.scala-reflect.source,2.11.8.v20160304-115712-1706a37eb8,file:/C:/Users/evalue/Downloads/eclipse/plugins/org.scala-lang.scala-reflect.source_2.11.8.v20160304-115712-1706a37eb8.jar,-1,false

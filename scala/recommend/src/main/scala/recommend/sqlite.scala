@@ -45,7 +45,7 @@ object sqlite {
       rec.foreach(r=>println("insert into ratings_recommend values(%d,%d,%1.2f)".format(r._2,r._1.user,r._1.rating)))
       recommendations.foreach(r => statement.executeUpdate("insert into ratings_recommend (user_id,item_id,rating) values(%d,%d,%1.2f)".format(r.user,r.product,r.rating)))
     
-
+      
   
   }
   }
