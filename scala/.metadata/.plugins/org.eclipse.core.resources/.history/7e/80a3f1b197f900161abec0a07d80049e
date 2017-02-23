@@ -1,0 +1,29 @@
+
+object vector extends App {
+ val list= List(1,2,3,4)
+ val list2 = List(2,3,4,5)
+ def max(list:List[Int]):Int= list match {
+   case Nil => throw new Exception("please input one variable")
+   case x::Nil => x
+   case x::xs => if (x<xs.head) max(xs) 
+                 else max(x::xs.tail)
+ }
+ println(max(list))
+ 
+def filter(list:List[Int],f:Int=>Boolean):List[Int]={
+   val acc =List[Int]()
+   if (list.isEmpty) throw new NoSuchElementException("Input a variable")
+   else list match {
+   case x::Nil => acc
+   case x::xs => if (f(x)) {acc:::List(x):::filter(xs,f)}
+                 else acc:::filter(xs,f)
+ }}
+ 
+def union(list:List[Int],other:List[Int]):List[Int]= {
+  other match {
+  case Nil => list
+  case head::tail => union(list.filter(e=>e!=head):::List(head),tail)
+}}
+println(union(list,list2))
+}
+

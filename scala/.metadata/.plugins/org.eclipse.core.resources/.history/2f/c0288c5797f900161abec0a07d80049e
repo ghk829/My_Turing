@@ -1,0 +1,4 @@
+import java.io.File
+object sc {
+  List(1)::List(2)                                //> res0: List[Any] = List(List(1), 2)
+}

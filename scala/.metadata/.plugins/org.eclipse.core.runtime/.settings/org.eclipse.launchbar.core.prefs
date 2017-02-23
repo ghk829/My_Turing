@@ -1,0 +1,6 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:connect,org.eclipse.launchbar.core.descriptorType.default\:Eclipse Application,org.eclipse.launchbar.core.descriptorType.default\:getmodel$,org.eclipse.launchbar.core.descriptorType.default\:goodjob$,org.eclipse.launchbar.core.descriptorType.default\:hive$,org.eclipse.launchbar.core.descriptorType.default\:mongodb$ (1),org.eclipse.launchbar.core.descriptorType.default\:mongodb$,org.eclipse.launchbar.core.descriptorType.default\:sqlite$,org.eclipse.launchbar.core.descriptorType.default\:StreamTest,org.eclipse.launchbar.core.descriptorType.default\:test$ (1),org.eclipse.launchbar.core.descriptorType.default\:test$,org.eclipse.launchbar.core.descriptorType.default\:vector$,org.eclipse.launchbar.core.descriptorType.default\:listprac$
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:connect/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:connect/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
