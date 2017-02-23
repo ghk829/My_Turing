@@ -26,7 +26,7 @@ object getmodel {
       // format: (movieId, movieName)
       (fields(0).toInt, fields(1))
     }.collect().toMap
-  val sameModel = MatrixFactorizationModel.load(sc, "C:/results")
+  val sameModel = MatrixFactorizationModel.load(sc, "./data/results")
   
     val myRatedMovieIds = myRatings.map(_.product).toSet
     val candidates = sc.parallelize(movies.keys.filter(!myRatedMovieIds.contains(_)).toSeq)
