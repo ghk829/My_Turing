@@ -1,0 +1,91 @@
+---
+title: "Data Handling"
+output: html_notebook
+---
+
+
+```{r}
+library(data.table)
+library(dplyr)
+df1 = data.frame(CustomerId = c(1:6), Product = c(rep("Toaster", 3), rep("Radio", 3)))
+df2 = data.frame(CustomerId = c(2, 4, 6), State = c(rep("Alabama", 2), rep("Ohio", 1)))
+setDT(df1)
+setDT(df2)
+cbind(df1,df2)
+```
+
+
+# Inner join
+```{r}
+innerdf=merge(df1,df2,by='CustomerId')
+innerdf
+```
+# Left join
+```{r}
+leftdf = merge(df1,df2,all.x=T,by='CustomerId')
+leftdf
+```
+# Right join
+```{r}
+rightdf =merge(df1,df2,all.y=T,by='CustomerId')
+rightdf
+```
+# Outer join
+```{r}
+outerdf = merge(df1,df2,all=T,by='CustomerId')
+outerdf
+```
+
+# select/except
+```{r}
+# select
+df2 %>% select(CustomerId)
+df2[,"CustomerId"]
+# except
+df2 %>% select(-CustomerId)
+```
+#filter
+```{r}
+df1 %>% filter(Product %in% "Radio")
+df1[Product %in% "Radio",]
+```
+#arrange - use data.table
+```{r}
+x=rnorm(100)
+df3=data.frame(x)
+df2=data.frame(df2)
+df4=merge(df2,df3)
+setDT(df3)
+df3[order(x),]
+```
+
+#mutation
+
+```{r}
+df3=df3 %>% mutate(x2=2*x)
+setDT(df3)
+df3[,x2:=2*x]
+df3
+```
+# transmute
+```{r}
+df3 %>% mutate_each(funs(as.character),x2)
+```
+# group_by & summarise
+```{r}
+
+
+```
+# sampling
+```{r}
+df4 %>% sample_n(10)
+df4[sample(.N,10),]
+df4 %>% sample_frac(0.1)
+```
+#Distinct
+```{r}
+df4 %>% distinct(CustomerId)
+```
+
+# If you want to save data as R object, use SaveRDS/readRDS
+
